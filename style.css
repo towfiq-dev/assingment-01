@@ -117,7 +117,7 @@ color: #30B868;
 }
 /* section-02 */
 #section-02{
-  padding: 20px 120px 120px 120px;
+  padding: 20px 120px 0 120px;
   text-align: center;
 }
 .card-head h2{
@@ -159,4 +159,45 @@ color: #627382;
   width: 60px;
   height: 60px;
   border-radius: 40%;
+}
+
+/* section-03 */
+#section-03{
+  padding: 120px;
+}
+.the-solution{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.knowlege img{
+width: 600px;
+height: 600px;
+border: none;
+border-radius: 12px;
+}
+.solution h5{
+color: #469165;
+font-size: 16px;
+line-height: 20px;
+font-weight: 500;
+}
+.solution h2{
+  color: #001931;
+  font-size: 48px;
+  font-weight: bold;
+}
+.solution p{
+color: #627382;
+font-size: 16px;
+line-height: 20px;
+font-weight: 400;
+margin-top: 16px;
+margin-bottom: 40px;
+}
+.check-circle li{
+  list-style-image: url(assets/CheckCircle.png);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
 }
