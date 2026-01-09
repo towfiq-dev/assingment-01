@@ -73,6 +73,11 @@
   border-radius: 1000px;
   padding: 8px 12px;
 }
+.hero h4 img{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
 .hero h1{
   font-size: 72px;
   font-weight: bold;
@@ -221,7 +226,7 @@ padding: 2px 120px 120px;
 .ready p{
   font-size: 16px;
   font-weight: 400;
-  color: #001931;
+  color: #627382;
   line-height: 24px;
   margin-top: 16px;
 }
