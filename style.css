@@ -201,3 +201,30 @@ margin-bottom: 40px;
   font-weight: 500;
   line-height: 20px;
 }
+
+/* section-04 */
+#section-04{
+padding: 2px 120px 120px;
+}
+.ready{
+  background-color: #F7F6F2;
+  border: none;
+  border-radius: 12px;
+  padding: 80px 40px;
+  text-align: center;
+}
+.ready h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+}
+.ready p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #001931;
+  line-height: 24px;
+  margin-top: 16px;
+}
+.section-04-btn{
+  margin-top: 24px;
+}
