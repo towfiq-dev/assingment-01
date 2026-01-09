@@ -67,9 +67,7 @@ transition: 0.4s;
 .banner{
   text-align: center;
 }
-.hero h4{
-  display: inline;
-  text-align: center;
+.hero button{
   font-size: 16px;
   font-weight: 500;
   color: #276941;
@@ -77,12 +75,9 @@ transition: 0.4s;
   border: none;
   border-radius: 1000px;
   padding: 8px 12px;
+  cursor: pointer;
 }
-.hero h4 img{
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-}
+
 .hero h1{
   font-size: 72px;
   font-weight: bold;
@@ -207,12 +202,18 @@ margin-top: 16px;
 margin-bottom: 40px;
 }
 
-.check-circle li{
-  list-style-image: url(assets/CheckCircle.png);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-  margin-bottom: 16px;
+.check-circle {
+list-style-type: none;
+padding: 0;
+}
+.check-circle li {
+display: flex;
+align-items: center;
+margin-bottom: 16px;
+color: #001931;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
 }
 
 /* section-04 */
