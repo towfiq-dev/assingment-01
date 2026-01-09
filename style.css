@@ -228,3 +228,37 @@ padding: 2px 120px 120px;
 .section-04-btn{
   margin-top: 24px;
 }
+/* footer-section */
+#footer-section{
+  padding: 120px 120px 30px 120px;
+  background-color: #001931;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.social-link h4{
+font-size: 20px;
+font-weight: 500px;
+line-height: 28px;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+.social-link a img{
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+.declaration{
+  border-top: 1px solid #469165;
+}
+.declaration p{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-top: 30px;
+  text-align: center;
+}
