@@ -1,0 +1,155 @@
+/* responsive.css */
+
+/* --- Laptop & Small Desktop (Max-width: 1200px) --- */
+@media screen and (max-width: 1200px) {
+    #header, #section-01, #section-02, #section-04, #footer-section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    #section-03 {
+        padding: 80px 40px;
+    }
+
+    .hero h1 {
+        font-size: 56px;
+        line-height: 1.2;
+    }
+}
+
+/* --- Tablet Devices (Max-width: 992px) --- */
+@media screen and (max-width: 992px) {
+    /* Navbar stack for tablet */
+    #header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    /* Hero Section adjustment */
+    #section-01 {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    /* Cards - 2 columns grid */
+    .card-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 48%; /* Two cards per row */
+    }
+
+    /* Section 3 - Vertical Stack */
+    .the-solution {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .solution h2 {
+        font-size: 36px;
+    }
+
+    .check-circle {
+        display: inline-block;
+        text-align: left;
+    }
+    
+    .knowledge img {
+        width: 100%;
+    }
+}
+
+/* --- Mobile Devices (Max-width: 768px) --- */
+@media screen and (max-width: 768px) {
+    /* Navbar Mobile */
+    .list {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .btn1 {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    /* Hero Section Mobile */
+    .hero h1 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .banner-btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-btn-1, .banner-btn-2 {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Section 2 - Cards Single Column */
+    .card-head h2 {
+        font-size: 32px;
+    }
+
+    .card-box {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    /* Section 3 Mobile */
+    #section-03 {
+        padding: 60px 20px;
+    }
+
+    .solution h2 {
+        font-size: 28px;
+    }
+
+    /* Footer Mobile */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .social-link {
+        margin-top: 20px;
+    }
+}
+
+/* --- Small Mobile Phones (Max-width: 480px) --- */
+@media screen and (max-width: 480px) {
+    #header {
+        padding: 15px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    #section-01 {
+        padding: 40px 15px;
+    }
+
+    #section-02, #section-04, #footer-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
